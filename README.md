@@ -6,21 +6,25 @@ To write a python program to implement multivariate linear regression and predic
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-### Step1
-<br>
+## step 1 Load the dataset.
+Handle missing values and encode categorical variables.
+Split the data into training and testing sets.
+## step 2 Feature Selection
 
-### Step2
-<br>
+Identify the independent variables (features) and the dependent variable (target).
+Prepare the data matrices for features (X) and target (y).
+## step 3 Model Training
 
-### Step3
-<br>
+Import the LinearRegression model from sklearn.linear_model.
+Train the model using the training data (X_train and y_train).
+## step 4 Prediction
 
-### Step4
-<br>
+Use the trained model to predict the target values for the testing set (X_test).
+## step 5 Evaluation
 
-### Step5
-<br>
-
+Evaluate the model’s performance using metrics like Mean Squared Error (MSE) and R-squared.
+Optionally, visualize the results by plotting actual vs. predicted values.
+ 
 ## Program:
 ```
 #program devoleped by - JESHWANTHR 
